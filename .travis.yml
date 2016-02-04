@@ -8,7 +8,6 @@ env:
 install:
   - pip install Django==$DJANGO
   - pip install flake8
-  - pip install -r SACHI-PDB/requirements.txt
+  - pip install -r requirements.txt
 script:
-  - flake8 mainsite
   - python manage.py test
