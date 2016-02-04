@@ -1,0 +1,7 @@
+{% extends "emails/base_mail.txt" %}
+{% block content %}
+Welcome to the SACHI Participant Database!
+
+To activate your membership please click the following link:
+{{ actvation_url }}
+{% endblock %}

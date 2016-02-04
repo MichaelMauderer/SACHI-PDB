@@ -1,0 +1,9 @@
+{% block content %}
+{% endblock %}
+
+_____________________
+You received this mail because you are member of the CS @ St Andrews Participant Database.
+If you want to be deleted from the database please follow this link:
+{{ unsubscribe_url}}.
+If you think you should not have received this mail, (e.g. because it clearly does 
+not target you, or have any other questions) please contact {{ contact_email }}.

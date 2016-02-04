@@ -1,0 +1,10 @@
+{% extends "emails/base_mail.html" %}
+{% block content %}
+<p>
+Welcome to the School of Computer Science Participant Database!
+</p>
+<p>
+You have requested access to the PDB. To activate your membership please click <a href="{{ activation_url }}">here</a>
+If you have not requested access, please ignore this mail or contact pdb@cs.st-andrews.ac.uk
+</p>
+{% endblock %}

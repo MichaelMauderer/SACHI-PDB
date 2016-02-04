@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+{% load bootstrap %}
+{% block body %}
+    <form class="form-horizontal" method="post" action="">
+        {% csrf_token %}
+  <fieldset>
+    <legend>{% block form_heading %}Heading{% endblock %} </legend>
+      {% block info_box %}
+          <div class="well well-large">
+          <div >
+		{% block info_text %}
+		{% endblock%}
+		</div>
+	</div>
+	{% endblock%}
+	{% for field in form %}
+	<div class="form-group {% if field.errors %}has-error{% endif %}">
+        
+        	{{ field|bootstrap_horizontal:'col-lg-2 col-sm-2' }}
+           
+    </div>
+    {% endfor %}
+    <div class="pull-right">
+    <button type="submit pull-right" class="btn btn-default">Submit</button>
+    </div>
+    
+   
+  </fieldset>
+</form>
+{% endblock %}
+
+

@@ -1,0 +1,179 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+
+html,
+body {
+    height: 100%;
+    /* The html and body elements cannot have any padding or margin. */
+}
+
+/* Wrapper for page content to push down footer */
+#wrap {
+    min-height: 100%;
+    height: auto !important;
+    /* Negative indent footer by it's height */
+    margin: 0 auto -60px;
+}
+
+/* Set the fixed height of the footer here */
+#push,
+#footer {
+    padding: 15px;
+}
+
+#footer {
+    background-color: #f5f5f5;
+    max-width: 980px;
+    margin: auto;
+}
+
+/* Lastly, apply responsive CSS fixes as necessary */
+@media (max-width: 767px) {
+    #footer {
+        margin-left: -20px;
+        margin-right: -20px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+/* Custom styles
+-------------------------------------------------- */
+#footer {
+    text-align: center;
+    border-top: 1px solid #e5e5e5;
+    background-color: #f5f5f5;
+}
+
+.controls ul {
+    list-style-type: none;
+    margin-left: 0;
+}
+
+/* Custom page header */
+.header {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.navbar {
+    border-radius: 0;
+    border: 0;
+    background-color: #00529b;
+}
+
+#titlebar {
+
+}
+
+.navbar a {
+    color: white;
+}
+
+.navbar li a:hover {
+    color: black;
+    background-color: white;
+}
+
+@media (min-width: 992px) {
+    #main-nav-links li a {
+        margin-top: 42px;
+        padding-bottom: 5px;
+    }
+
+}
+
+.navbar-toggle {
+    color: white;
+}
+
+body {
+    background-color: #777;
+}
+
+#content {
+    padding: 0 50px 50px 50px;
+}
+
+.container {
+    background-color: white;
+    padding-right: 0;
+    padding-left: 0;
+}
+
+/* Customize container */
+@media (min-width: 768px) {
+    .container {
+        max-width: 980px;
+    }
+}
+
+.container-narrow > hr {
+    margin: 30px 0;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+    /* Remove the padding we set earlier */
+    .header,
+    .marketing,
+    .footer {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    /* Space out the masthead */
+    .header {
+        margin-bottom: 30px;
+    }
+
+    /* Remove the bottom border on the jumbotron for visual effect */
+    .jumbotron {
+        border-bottom: 0;
+    }
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+    /* Remove the padding we set earlier */
+    .header,
+    .marketing,
+    .footer {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    /* Space out the masthead */
+    .header {
+        margin-bottom: 30px;
+    }
+
+    /* Remove the bottom border on the jumbotron for visual effect */
+    .jumbotron {
+        border-bottom: 0;
+    }
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Georgia", "Book Antiqua", "Palatino Linotype", "Times New Roman", sans-serif;
+    font-weight: normal;
+    color: #404040;
+    padding: 0;
+}
+
+legend, .navbar-brand {
+    font-family: "Georgia", "Book Antiqua", "Palatino Linotype", "Times New Roman", sans-serif;
+}
+
+.navbar-brand img {
+    padding-right: 15px;
+}
+
+#topnav {
+    height: 1em;
+    background-color: #404040;
+    border-bottom: 1px solid #777;
+}
+
+.form-group ul {
+    list-style-type: none;
+}

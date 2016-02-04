@@ -1,0 +1,47 @@
+[
+    {
+        "pk": 1, 
+        "model": "participantdatabase.participant", 
+        "fields": {
+            "is_activated": false, 
+            "gender": 1, 
+            "handedness": 11, 
+            "unsubscribe_token": "a4eeae637fd5282d561961e4d077815090a1788e", 
+            "vision": 20, 
+            "activate_token": "6b9511c0e9b5cdfc34c80f911dba126ab6a5df76", 
+            "email": "dummy3267@online.com", 
+            "is_localy_available": true, 
+            "year_of_birth": 1988
+        }
+    }, 
+    {
+        "pk": 2, 
+        "model": "participantdatabase.participant", 
+        "fields": {
+            "is_activated": true, 
+            "gender": 0, 
+            "handedness": 11, 
+            "unsubscribe_token": "44c6d5849694783840a69dad5b8f0aaa2926a21e", 
+            "vision": 22, 
+            "activate_token": "dd008f0448ea8e0e4cc0176c1bb5faad6ccdda5b", 
+            "email": "dummy1@online.com", 
+            "is_localy_available": true, 
+            "year_of_birth": 1970
+        }
+    }, 
+    {
+        "pk": 3, 
+        "model": "participantdatabase.participant", 
+        "fields": {
+            "is_activated": true, 
+            "gender": 1, 
+            "handedness": 12, 
+            "unsubscribe_token": "1234", 
+            "vision": 22, 
+            "activate_token": "123", 
+            "email": "dummy3@online.com", 
+            "is_localy_available": true, 
+            "year_of_birth": 1999
+        }
+    }
+]
